@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="360.0" prefWidth="332.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Main">
+   <children>
+      <VBox layoutX="67.0" layoutY="32.0" prefHeight="295.0" prefWidth="210.0">
+         <children>
+            <Button fx:id="btnLogin" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#Login" prefHeight="60.0" prefWidth="210.0" text="Login">
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin></Button>
+            <Button fx:id="btnCreatePlayer" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#Createplayer" prefHeight="62.0" prefWidth="210.0" text="Create Player">
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin></Button>
+            <Button fx:id="btnExit" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#closeWindow" prefHeight="61.0" prefWidth="210.0" text="Exit">
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin></Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StenSaxPose</string>
+    <string name="title_activity_login">Login</string>
+    <string name="BtnLogin">Log In</string>
+    <string name="BtnCreatePlayer">Create Player</string>
+    <string name="BtnExit">Exit</string>
+    <string name="PlayerPsw"></string>
+    <string name="PlayerName"></string>
+    <string name="textView1">Playername:</string>
+    <string name="textView2">Password:</string>
+    <string name="createPlayer">Create Player</string>
+</resources>
